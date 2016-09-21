@@ -13,6 +13,7 @@
 		78F0E3A61D8F946B007BA27A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F0E3A51D8F946B007BA27A /* Images.xcassets */; };
 		78F0E3A91D8F946B007BA27A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F0E3A71D8F946B007BA27A /* LaunchScreen.xib */; };
 		78F0E3B51D8F946B007BA27A /* pickup_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0E3B41D8F946B007BA27A /* pickup_prototypeTests.swift */; };
+		78F0E3BF1D925C07007BA27A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F0E3BE1D925C07007BA27A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		78F0E3AE1D8F946B007BA27A /* pickup.prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickup.prototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F0E3B31D8F946B007BA27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F0E3B41D8F946B007BA27A /* pickup_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickup_prototypeTests.swift; sourceTree = "<group>"; };
+		78F0E3BE1D925C07007BA27A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F0E3BF1D925C07007BA27A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		78F0E3901D8F946A007BA27A = {
 			isa = PBXGroup;
 			children = (
+				78F0E3BE1D925C07007BA27A /* MapKit.framework */,
 				78F0E39B1D8F946B007BA27A /* pickup.prototype */,
 				78F0E3B11D8F946B007BA27A /* pickup.prototypeTests */,
 				78F0E39A1D8F946B007BA27A /* Products */,
@@ -161,6 +165,11 @@
 				TargetAttributes = {
 					78F0E3981D8F946B007BA27A = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					78F0E3AD1D8F946B007BA27A = {
 						CreatedOnToolsVersion = 6.3.2;
