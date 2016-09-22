@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>575B0868-AF0D-4E87-82C2-D5B89A624564</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58BF8D1188293F6EC1AA9DCD24E0C4F4C351A14F</key>
+		<string>https://github.com/fargofremling/pickup_prototype</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pickup.prototype.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58BF8D1188293F6EC1AA9DCD24E0C4F4C351A14F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fargofremling/pickup_prototype</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58BF8D1188293F6EC1AA9DCD24E0C4F4C351A14F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58BF8D1188293F6EC1AA9DCD24E0C4F4C351A14F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pickup.prototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>
